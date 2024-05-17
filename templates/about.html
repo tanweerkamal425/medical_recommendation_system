@@ -65,6 +65,24 @@
         margin-left: 15%;
 
     }
+    /* Set the default color of nav items */
+.nav-item a {
+    color: rgba(255, 255, 255, 0.7); /* Faded white color */
+    font-size: 20px; /* Increase text size */
+    font-weight: bold; /* Make text bold */
+    transition: color 0.3s; /* Add transition effect */
+}
+
+/* Change color of active nav item */
+.nav-item.active a {
+    color: white; /* Active color */
+}
+
+/* Change color on hover */
+.nav-item a:hover {
+    color: rgba(255, 255, 255, 0.9); /* Faded white color on hover */
+}
+
     
 </style>
 </head>
@@ -83,10 +101,10 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="/">Home</a>
+                    <a class="nav-link " aria-current="page" href="/">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/about">About</a>
+                    <a class="nav-link active" href="/about">About</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="/contact">Contact</a>
@@ -108,35 +126,33 @@
     <div class="container my-4 mt-4">
 
 
-     <h3> About Us</h3>
+     <h3> <b>About Us</b></h3>
 
 <p>Welcome to Medical Health center, where health meets technology for a brighter, healthier future.
 </p>
-<h3>Our Vision</h3>
+<h3><b>Our Vision</b></h3>
 
 <p>We envision a world where access to healthcare information is not just a luxury but a fundamental right. Our journey began with a simple yet powerful idea: to empower individuals with the knowledge and tools they need to take control of their health.
 </p>
-<h3>Who We Are
-</h3>
+<h3><b>Who We Are </b></h3>
 <p>We are a passionate team of healthcare professionals, data scientists, and technology enthusiasts who share a common goal: to make healthcare accessible, understandable, and personalized for you. With years of experience in both healthcare and cutting-edge technology, we've come together to create this platform as a testament to our commitment to your well-being.
 </p>
-<h3>Our Mission</h3>
+<h3><b>Our Mission</b></h3>
 
 <p>At this website, our mission is to provide you with a seamless and intuitive platform that leverages the power of artificial intelligence and machine learning. We want to assist you in identifying potential health concerns based on your reported symptoms, all while offering a wealth of educational resources to enhance your health literacy.
 </p>
-<h3>How We Do It</h3>
+<h3><b>How We Do It</b></h3>
 
 <p>Our platform utilizes a robust machine learning model trained on a vast dataset of symptoms and diseases. By inputting your symptoms, our system generates accurate predictions about potential illnesses, allowing you to make informed decisions about your health.
 </p>
-<h3>Your Well-being, Our Priority</h3>
+<h3><b>Your Well-being, Our Priority</b></h3>
 
 <p>Your health is our top priority. We understand that navigating the complexities of healthcare can be daunting. That's why we've gone the extra mile to provide not only accurate predictions but also comprehensive information about each disease. You'll find descriptions, recommended precautions, medications, dietary advice, and workout tips to support your journey to better health.
 </p>
-<h3>Join Us on this Journey
-</h3>
+<h3><b>Join Us on this Journey</b></h3>
 <p>We invite you to explore our platform, engage with our educational content, and take control of your health journey. Together, we can revolutionize the way individuals access and understand healthcare information.
 </p>
-<p>Thank you for choosing [Your Website Name] as your trusted health companion. We are here to empower you with knowledge, support, and a brighter, healthier future.
+<p>Thank you for choosing MRS(Medicine Recommendation System) as your trusted health companion. We are here to empower you with knowledge, support, and a brighter, healthier future.
 </p>
 
     </div>

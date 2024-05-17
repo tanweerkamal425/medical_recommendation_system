@@ -204,9 +204,7 @@ body {
         background-color: #3cc6b6;
     }
 
-    .navbar{
-       
-    }
+    
 
     /* New CSS */
     .navbar-brand {
@@ -242,6 +240,42 @@ body {
         margin-left: 20%;
 
     }
+    .navbar-brand {
+    margin-left: 100%; /* Adjust the gap as needed */
+}
+
+.navbar-nav {
+    display: flex;
+    align-items: center;
+}
+
+.nav-item {
+    margin-right: 20px; /* Adjust the gap between nav items */
+}
+
+.nav-item a {
+        color: white; /* Set the default color of nav items */
+        font-size: 20px; /* Increase text size */
+        font-weight: bold; /* Make text bold */
+        transition: color 0.3s; /* Add transition effect */
+}
+
+.nav-item a:hover {
+    color: gray; /* Change color on hover */
+}
+
+/* Move all nav items to the right end */
+.navbar-nav {
+    margin-left: auto;
+}
+.container{
+    width: 60%;
+    margin-left: 20%;
+}
+
+.navbar{
+    padding: 1rem 0rem;
+}
 
 
 
@@ -350,12 +384,12 @@ text-shadow: 0px 0px 2px #685d5d;"><b><i>MEDICAL RECOMMENDATION SYSTEM</i></b></
 
     <div class="result-container">
         <!-- Buttons to toggle display -->
-        <button class="toggle-button" data-bs-toggle="modal" data-bs-target="#diseaseModal" style="padding:4px;  margin: 5px 40px 5px 0; font-size:20px;font-weight:bold; width:140px; border-radius:5px; background:#F39334;color:black;">Disease</button>
-        <button class="toggle-button" data-bs-toggle="modal" data-bs-target="#descriptionModal" style="padding:4px; margin: 5px 40px 5px 0; font-size:20px;font-weight:bold; width:140px; border-radius:5px; background:#268AF3 ;color:black;">Description</button>
-        <button class="toggle-button" data-bs-toggle="modal" data-bs-target="#precautionModal" style="padding:4px; margin: 5px 40px 5px 0; font-size:20px;font-weight:bold; width:140px; border-radius:5px; background:#F371F9 ;color:black;">Precaution</button>
-        <button class="toggle-button" data-bs-toggle="modal" data-bs-target="#medicationsModal" style="padding:4px; margin: 5px 40px 5px 0; font-size:20px;font-weight:bold; width:140px;border-radius:5px; background:#F8576F ;color:black;">Medications</button>
-        <button class="toggle-button" data-bs-toggle="modal" data-bs-target="#workoutsModal" style="padding:4px; margin: 5px 40px 5px 0; font-size:20px;font-weight:bold; width:140px; border-radius:5px; background:#99F741 ;color:black;">Workouts</button>
-        <button class="toggle-button" data-bs-toggle="modal" data-bs-target="#dietsModal" style="padding:4px; margin: 5px 40px 5px 0; font-size:20px;font-weight:bold; width:140px; border-radius:5px; background:#E5E23D;color:black;">Diets</button>
+        <button class="toggle-button" data-bs-toggle="modal" data-bs-target="#diseaseModal" style="padding:4px;  margin: 5px 40px 5px 0; font-size:20px;font-weight:bold; width:140px; border-radius:30px; background:linear-gradient(to left, #72d5ca, #EC4444);color:white;">Disease</button>
+        <button class="toggle-button" data-bs-toggle="modal" data-bs-target="#descriptionModal" style="padding:4px; margin: 5px 40px 5px 0; font-size:20px;font-weight:bold; width:140px; border-radius:30px; background:linear-gradient(to left, #72d5ca, #EC4444); ;color:white;">Description</button>
+        <button class="toggle-button" data-bs-toggle="modal" data-bs-target="#precautionModal" style="padding:4px; margin: 5px 40px 5px 0; font-size:20px;font-weight:bold; width:140px; border-radius:30px; background:linear-gradient(to left, #72d5ca, #EC4444);;color:white;">Precaution</button>
+        <button class="toggle-button" data-bs-toggle="modal" data-bs-target="#medicationsModal" style="padding:4px; margin: 5px 40px 5px 0; font-size:20px;font-weight:bold; width:140px;border-radius:30px; background:linear-gradient(to left, #72d5ca, #EC4444);;color:white;">Medications</button>
+        <button class="toggle-button" data-bs-toggle="modal" data-bs-target="#workoutsModal" style="padding:4px; margin: 5px 40px 5px 0; font-size:20px;font-weight:bold; width:140px; border-radius:30px; background:linear-gradient(to left, #72d5ca, #EC4444);;color:white;">Workouts</button>
+        <button class="toggle-button" data-bs-toggle="modal" data-bs-target="#dietsModal" style="padding:4px; margin: 5px 40px 5px 0; font-size:20px;font-weight:bold; width:140px; border-radius:30px; background:linear-gradient(to left, #72d5ca, #EC4444);;color:white;">Diets</button>
     </div>
 </div>
 
